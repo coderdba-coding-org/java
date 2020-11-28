@@ -61,6 +61,12 @@ public class FileReader extends Thread {
                 readFile(file,fileLength);
                 fileLength=file.length();
             }
+            
+            try {
+				Thread.sleep(500L);
+			} catch (InterruptedException e) {	
+				e.printStackTrace();
+			}
 		}
 		
 	}
