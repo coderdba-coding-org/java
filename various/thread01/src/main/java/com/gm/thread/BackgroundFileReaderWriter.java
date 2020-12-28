@@ -16,6 +16,8 @@ public class BackgroundFileReaderWriter {
 		System.out.println("Hello");
 		System.out.println("Starting reading file");
 		
+		// This FileReader class extends Thread
+		// Arguments: File path, boolean continuous true/false
 		FileReader fileReader = new FileReader("/tmp/x1", true);
 		 
 		// Read file in background - Call the inherited start() method as FileReader extends Thread

@@ -1,8 +1,8 @@
-package com.gm.service01;
+package com.gm.fork;
 
 import java.util.concurrent.RecursiveTask;
 
-// Reference: https://www.tutorialspoint.com/java_concurrency/concurrency_fork_join.htm
+//Reference: https://www.tutorialspoint.com/java_concurrency/concurrency_fork_join.htm
 
 public class RecursiveTaskHello extends RecursiveTask<String> {
 	

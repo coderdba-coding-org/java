@@ -1,4 +1,4 @@
-package com.gm.service01;
+package com.gm.fork;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ForkJoinPool;
@@ -13,7 +13,7 @@ public class Main  {
 		
 		System.out.println("Hello!");
 		
-		// pring number of threads available
+		// print number of threads available
 	    int nThreads = Runtime.getRuntime().availableProcessors();
 	    System.out.println("Available CPUs: "+ nThreads);
 	      
