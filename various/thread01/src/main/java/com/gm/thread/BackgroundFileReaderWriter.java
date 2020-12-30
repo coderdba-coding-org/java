@@ -36,7 +36,7 @@ public class BackgroundFileReaderWriter {
 		}
 		*/
 		
-		System.out.println("Starting reading file in background");
+		System.out.println("Printing this after calling the thread that is running in the background: Starting reading file in background");
 		
 	}
 
