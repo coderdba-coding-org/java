@@ -1,7 +1,31 @@
 Java learning and projects
 
-## INDEX
+## GRADLE 
 
-thread01 - simple thread that reads a file - in continuous or one-time mode  
-thread02 - thread with interruption - simple, non-blocking threads, interrupt using different wasy  
-thread03 - blocking threads - how to interrupt them   
+### gradle-wrapper.jar 
+gradle-wrapper.jar is placed in .gitignore - so it wont go to git as a useless piece
+You wont get it it when you clone/download this repo
+To re-create it - just run "gradle wrapper" from project root
+
+### Build a project
+From project root run:  
+$ gradle build  
+
+Classes are created in build/classes  
+Jar is created in build/libs  
+
+### Run a project
+$ gradle run  
+
+However, this gave error: "Task 'run' not found in root project "
+
+### Clean the build folder
+$ gradle clean
+
+### Generate javadoc
+$ gradle javadoc  
+
+Docs will be in build/docs  
+ 
+
+
