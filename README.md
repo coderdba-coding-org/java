@@ -2,6 +2,8 @@ Java learning and projects
 
 ## GRADLE 
 
+https://docs.gradle.org/current/userguide/command_line_interface.html  
+
 ### gradle-wrapper.jar 
 gradle-wrapper.jar is placed in .gitignore - so it wont go to git as a useless piece
 You wont get it it when you clone/download this repo
