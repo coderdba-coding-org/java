@@ -21,6 +21,7 @@ public class BackgroundFileReaderWriter {
 		FileReader fileReader = new FileReader("/tmp/x1", true);
 		 
 		// Read file in background - Call the inherited start() method as FileReader extends Thread
+		fileReader.setName("filex1reader");
 		fileReader.start();
 		
 		// This run() does not put it in background
