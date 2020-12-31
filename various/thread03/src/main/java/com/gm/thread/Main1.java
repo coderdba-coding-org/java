@@ -34,6 +34,9 @@ public class Main1 {
             } catch (IOException ignored) {
             } finally {
             	System.out.println("In interrupt() of the thread, in 'finally' part: interrupting the thread");
+            	
+            	// this calling super.interrupt() is necessary to send interrupt to run() 
+            	// - otherwise interrupt() just exits and run() continues
                 super.interrupt();
             }
         }
@@ -46,6 +49,7 @@ public class Main1 {
                 	System.out.println("In run() of the thread: Opening the socket to accept requests");
                     Socket client = server.accept();
                 } catch (Exception se) {
+                	System.out.println("In run() of the thread: Caught exception and breaking");
                     break;
                 }
             }

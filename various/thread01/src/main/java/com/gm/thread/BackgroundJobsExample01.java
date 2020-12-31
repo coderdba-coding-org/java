@@ -24,6 +24,7 @@ class ThreadTest extends Thread {
 			try {
 				sleep((int) (Math.random() * 2000));
 			} catch (InterruptedException e) {
+				// interrupted exception is left alone - not caught - for demoing only
 			}
 		}
 		System.out.println("Test Finished for: " + getName());

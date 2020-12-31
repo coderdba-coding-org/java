@@ -5,8 +5,13 @@ About asynch/parallel/background execution:
 - Fork --> finite end, split into multiple parallel tasks
 - Service --> utility services like functions in shell programs, not instantiated 
 
+## TODO
+Monitoring kind of thread to watch and kill another thread
+
+
 ## INDEX
 
 thread01 - simple thread that reads a file - in continuous or one-time mode
 thread02 - thread with interruption - simple, non-blocking threads, interrupt using different wasy
 thread03 - blocking threads - how to interrupt them
+
